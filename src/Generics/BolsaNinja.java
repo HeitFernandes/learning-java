@@ -9,18 +9,19 @@ import java.util.List;
 
 // classe generica criada.
 
-public class BolsaNinja<T>{
+public class BolsaNinja<T> {
 
-   // TODO - Inicializando nosso array. Poderiamos colocar algumas da classes presentes no <Tipo>, como: Kunai ou Pergaminho.
+    // TODO - Inicializando nosso array. Poderiamos colocar algumas da classes presentes no <Tipo>, como: Kunai ou Pergaminho.
     // TODO - Porem para querermos levar todos equipamentos dentro do array(superPoderoso) usamos o <T>.
 
     // array criado.
     private List<T> ferramentas;
 
     // TODO - Construtor vazio
-    public BolsaNinja(){
+    public BolsaNinja() {
         this.ferramentas = new ArrayList<>();
     }
+
     // TODO - Construtor com parametros. iria dar erro.
     public BolsaNinja(List<T> ferramentas) {
         this.ferramentas = ferramentas;
@@ -33,24 +34,17 @@ public class BolsaNinja<T>{
     // TODO - 4 - O parametro dado (T ferramenta) vai fazer nossa List receber uma nova ferramenta, leia 3.
 
     //metodo criado pra inserir ferramentas(equipamentos).
-    public void adicionarFerramenta(T ferramenta){
+    public void adicionarFerramenta(T ferramenta) {
         ferramentas.add(ferramenta);
     }
 
     //TODO - Mostrando ferramentas
     // TODO - O for each esta comecando do comeco até final lendo os metodos toString de cada objeto.
-    public void mostrarFerramentas(){
-        for(T ferramenta : ferramentas){
+    public void mostrarFerramentas() {
+        for (T ferramenta : ferramentas) {
             System.out.println(ferramenta);
         }
     }
-
-
-
-
-
-
-
 
 
 }
