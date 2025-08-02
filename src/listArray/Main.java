@@ -19,7 +19,7 @@ public class Main {
         // TODO - como inicializar uma List, logo abaixo. dentro dos <coloca-se o tipo> logo depois o nome da List.
 
         //TODO - Criando a lista.
-        List<String> ninjaList = new ArrayList<>();
+        List<String> ninjaList = new ArrayList<>(); // ARRAY LIST
 
         // TODO - Adicionando elementos dentro da lista. Repare que a lista nao tem tamanho fixo.
         // TODO - Para adicionar elementos na lista usamos == "nomeDaLista.add". Como previsto no exemplo abaixo.
