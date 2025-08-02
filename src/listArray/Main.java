@@ -2,12 +2,14 @@ package listArray;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// TODO - Array list é excelente para procurar coisas porque possui index, mas é horrivel quando se precisa fazer um grande numero de operacoes.
+// TODO - Nosso algoritimo nao fica performatico.
+// TODO - Em contrapartida, as linked list sao horriveis para trabalhar fazendo pesquisas mas sao boas em realizar operacoes em grande escala.
 public class Main {
     public static void main(String[] args) {
 
         String[] arrayNinja = new String[4]; // arrays sao estaticos, nunca alteram de tamnho.
-
+        // para mudarmos o tamanho dele, é necessario mudar manualmente o ARRAY.
         arrayNinja[0] = "Naruto Uzumaki";
         arrayNinja[1] = "Sasuke Uchiha";
         arrayNinja[2] = "Sakura Haruno";
